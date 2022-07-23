@@ -1,0 +1,15 @@
+.new-expense__inputs {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.new-expense__control {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.new-expense__control-btn {
+  background-color: rgb(132, 113, 84) !important;
+}
