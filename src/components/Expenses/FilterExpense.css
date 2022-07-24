@@ -1,0 +1,16 @@
+.filter-expense {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  color: rgb(59, 58, 58);
+  font-size: large;
+  font-weight: bold;
+}
+
+.filter-expense__year-select {
+  display: block;
+  float: right;
+}
