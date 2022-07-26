@@ -1,0 +1,9 @@
+.expenses-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expenses-list__no-expense {
+  text-align: center;
+  color: rgb(72, 72, 73);
+}

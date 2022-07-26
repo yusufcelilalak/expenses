@@ -87,6 +87,17 @@ function NewExpenseForm(props) {
             Add Expense
           </Button>
         </div>
+        <div className="new-expense__control new-expense__cancel-btn">
+          <Button
+            fullWidth
+            className="new-expense__control new-expense__control-btn"
+            variant="contained"
+            type="button"
+            onClick={props.onCancel}
+          >
+            Cancel
+          </Button>
+        </div>
       </div>
     </form>
   );

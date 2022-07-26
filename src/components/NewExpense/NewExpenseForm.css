@@ -13,3 +13,7 @@
 .new-expense__control-btn {
   background-color: rgb(132, 113, 84) !important;
 }
+
+.new-expense__cancel-btn {
+  grid-column: 2/3;
+}
